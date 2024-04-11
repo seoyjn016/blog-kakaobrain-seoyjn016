@@ -15,6 +15,7 @@ a {
 }
 
 html {
+  overflow-x: hidden;
 }
 body {
   font-family: "Inter", "Noto Sans KR", sans-serif;
@@ -25,6 +26,29 @@ body {
 
 .br-20 {
   border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.bt-wrap {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 60px;
+}
+.bt-more:hover {
+  background: #000;
+  color: #fff;
+}
+
+.bt-more {
+  display: block;
+  border: 1px solid #000;
+  border-radius: 14px;
+  font-weight: 700;
+  padding: 11px 20px;
+  line-height: 20px;
+  transition: all 0.2s ease-in;
 }
 .wrap {
 }
